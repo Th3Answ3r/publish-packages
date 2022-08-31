@@ -12,8 +12,8 @@ jobs:
       - name: Build container
         uses: docker/build-push-action@v1
         with:
-          username: Th3Answ3r
+          username: th3Answ3r
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: Th3Answ3r/publish-packages/game
+          repository: th3Answ3r/publish-packages/game
           tag_with_sha: true
